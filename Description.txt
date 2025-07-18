@@ -1,0 +1,56 @@
+📌 Project Title: Campus Cab – MERN Stack Based Campus Cab Booking Platform
+
+
+📄 Project Description:
+Campus Cab is a full-stack cab booking web application designed specifically for students and staff within a university or college campus. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), it enables users to book rides easily between different locations on or around campus.
+
+🎯 Objectives:
+- Provide a safe, efficient, and reliable cab booking solution inside the campus.
+- Eliminate manual or informal cab booking methods.
+- Offer route visibility, fare transparency, and booking history to users.
+- Help institutions manage transportation logistics more effectively.
+
+Future Improvements:
+- Live cab tracking using driver GPS
+- Payment integration (e.g., Razorpay)
+- Admin analytics dashboard for managing campus transport
+
+🔧 Tech Stack:
+**Frontend**: React.js
+**Backend**: Node.js, Express.js  
+**Database**: MySql
+
+The following are the key pages/routes in the system:
+
+1. **Home Page**
+   - Introduces the platform with a brief description and call-to-action for booking a cab.
+
+2. **Login Page**
+   - Allows users (students, drivers, admins) to securely log in to their respective dashboards.
+
+3. **Signup Page**
+   - Registration page for new users and drivers to create an account.
+
+4. **Booking Page**
+   - Main interface to book a cab. Users can input pickup and drop locations, view the route on the map, and see fare and time estimates using Google Maps APIs.
+
+5. **Ride Confirmation Page**
+   - Displays a summary of the ride details before booking is finalized.
+
+6. **Booking History Page**
+   - Shows past rides for users and accepted/completed rides for drivers.
+
+7. **Driver Dashboard**
+   - Enables drivers to view and manage their assigned bookings, availability, and route status.
+
+8. **Admin Dashboard**
+   - For administrators to manage users, drivers, bookings, pricing, and view platform analytics.
+
+9. **Profile Page**
+   - Allows users and drivers to view and update their personal information.
+
+10. **Help/Contact Page**
+    - Provides FAQs, contact information, and support options.
+
+11. **404 Page (Not Found)**
+    - A fallback route when a user navigates to a page that doesn't exist.
