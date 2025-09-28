@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# 🚖 Campus Cab – MERN Stack Based Cab & Vehicle Booking Platform  
 
-## Project info
+## 📄 Project Description  
+**Campus Cab** is a full-stack cab and vehicle booking platform built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and **MySQL** as the database.  
 
-**URL**: https://lovable.dev/projects/0073cbc1-722d-4cad-9477-d96d350942b8
+It works similar to **Uber**, but with **extra features**:  
+- Transport agencies can **list their vehicles** (cars, bikes, vans, etc.) for hire.  
+- Users can **book cabs** or **rent vehicles** directly from the platform.  
+- Admins can **manage all bookings, users, and analytics**.  
 
-## How can I edit this code?
+Campus Cab provides a **unified ride-hailing + rental + agency listing solution** for better transportation management.  
 
-There are several ways of editing your application.
+---
+## 🎯 Objectives  
+- ✅ Provide a **safe, efficient, and reliable** cab & vehicle booking service.  
+- ✅ Enable **agencies** to list/manage vehicles easily.  
+- ✅ Offer **vehicle rental** services to individuals.  
+- ✅ Ensure **fare transparency, booking history, and route visibility**.  
+- ✅ Give admins and agencies a **management & analytics dashboard**.  
 
-**Use Lovable**
+---
+## 🔮 Future Improvements  
+- 📍 Real-time cab tracking with **GPS integration**  
+- 💳 **Online payments** (Razorpay, Stripe)  
+- 📊 **Analytics dashboard** for admins/agencies  
+- 🏷️ Dynamic **pricing & offers** system  
+- 📱 Mobile app version  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0073cbc1-722d-4cad-9477-d96d350942b8) and start prompting.
+---
+## 🔧 Tech Stack  
+- **Frontend**: React.js  
+- **Backend**: Node.js, Express.js  
+- **Database**: MySQL  
+- **Maps API**: Google Maps  
+- **Authentication**: JWT  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
+## 📌 Features & Pages  
+- **Home Page** → Intro + quick booking CTA  
+- **Login/Signup** → For users, drivers, agencies, admins  
+- **Booking Page** → Select pickup/drop, view fare & time estimates  
+- **Ride Confirmation** → Ride summary before final booking  
+- **Booking History** → Past/ongoing bookings & rentals  
+- **Vehicle Rental Page** → Rent bikes, cars, vans, etc.  
+- **Agency Dashboard** → Agencies can list/manage vehicles  
+- **Driver Dashboard** → Drivers manage rides & availability  
+- **Admin Dashboard** → Manage users, agencies, bookings, analytics  
+- **Profile Page** → Update personal/agency details  
+- **Help/Contact** → FAQs, support    
 
-**Use your preferred IDE**
+---
+## 🚀 Installation & Setup  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0073cbc1-722d-4cad-9477-d96d350942b8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/campus-cab.git
+cd campus-cab
